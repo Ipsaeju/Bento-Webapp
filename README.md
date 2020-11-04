@@ -1,24 +1,2 @@
 # bento-webapp
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A simple web application for the family kitchen/food business. Currently (2020.11.2) it will remain a skeleton app until family will decide what features they want on it.
