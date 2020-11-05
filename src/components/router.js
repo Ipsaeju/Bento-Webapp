@@ -1,11 +1,3 @@
-<template>
-    <div id="barrouter">
-        <h1></h1>
-</template>
-
-
-
-<script>
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from './home'
@@ -13,10 +5,9 @@ import Menu from './menu'
 import About from './about'
 import Contact from './contact'
 
-
 Vue.use(VueRouter)
 
-var routes = [{
+const routes = [{
         name: 'home',
         title: 'Home Page',
         path: '/',
@@ -47,9 +38,5 @@ var routes = [{
         }
 }];
 
-var router = new VueRouter({ routes })
-const app = new Vue({router}).$mount('#app')
-
+const router = new VueRouter({ routes })
 export default router
-</script>
-
