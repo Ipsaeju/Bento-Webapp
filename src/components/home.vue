@@ -23,8 +23,12 @@ export default {
 <style>
     .box1{
         box-sizing: content-box;
+        font-family: "Noto Sans";
+        font-size: 30px;
     }
     .box2{
         box-sizing: content-box;
+        font-family: "Noto Sans";
+        font-size: 30px;
     }
 </style>
