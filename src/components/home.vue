@@ -1,10 +1,10 @@
 <template>
-    <div id="title">
+    <div class="title">
         <h1>Welcome</h1>
-        <div id="box1">
+        <div class="box1">
             <h2>Box 1</h2>
         </div>
-        <div id="box2">
+        <div class="box2">
             <h2>Box 2</h2>
         </div>
         
@@ -19,3 +19,12 @@ export default {
     
 }
 </script>
+
+<style>
+    .box1{
+        box-sizing: content-box;
+    }
+    .box2{
+        box-sizing: content-box;
+    }
+</style>
