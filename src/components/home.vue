@@ -1,4 +1,15 @@
 <template>
+    <div class="title">
+        <h1>Welcome</h1>
+        <div class="box1">
+            <h2>Box 1</h2>
+        </div>
+        <div class="box2">
+            <h2>Box 2</h2>
+        </div>
+        
+    </div>
+    
     
 </template>
 
@@ -8,3 +19,16 @@ export default {
     
 }
 </script>
+
+<style>
+    .box1{
+        box-sizing: content-box;
+        font-family: "Noto Sans";
+        font-size: 30px;
+    }
+    .box2{
+        box-sizing: content-box;
+        font-family: "Noto Sans";
+        font-size: 30px;
+    }
+</style>
