@@ -3,9 +3,15 @@
         <h1>Welcome</h1>
         <div class="box1">
             <h2>Box 1</h2>
+            <div class="boxtext">
+                lorem ipsum
+            </div>
         </div>
         <div class="box2">
             <h2>Box 2</h2>
+            <div class="boxtext">
+                lorem ipsum
+            </div>
         </div>
         
     </div>
@@ -15,7 +21,7 @@
 
 <script>
 export default {
-    name: 'Home Page',
+    name: 'HomePage',
     
 }
 </script>
@@ -30,5 +36,10 @@ export default {
         box-sizing: content-box;
         font-family: "Noto Sans";
         font-size: 30px;
+    }
+    .boxtext{
+        font-family: "Noto Sans";
+        font-size: 14px;
+        text-align: justify;
     }
 </style>

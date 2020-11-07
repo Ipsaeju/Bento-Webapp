@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from './home'
+import HomePage from './home'
 import Menu from './menu'
 import About from './about'
 import Contact from './contact'
@@ -11,7 +11,7 @@ const routes = [{
         name: 'home',
         title: 'Home Page',
         path: '/',
-        component: Home
+        component: HomePage
     },
     {
         name: 'menu',
